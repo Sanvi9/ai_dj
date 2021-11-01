@@ -1,6 +1,6 @@
-music = "";
+music1 = "";
 function preload() {
-    music = loadSound("music.mp3")
+    music1 = loadSound("music.mp3")
 }
 
 function setup() {
@@ -14,6 +14,6 @@ function draw() {
     image(video,0,0,600,500)
 }
 function play() {
-    music.play()
+    music1.play()
 }
 
